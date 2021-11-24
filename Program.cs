@@ -42,6 +42,7 @@ namespace ActividadEstructuras
         }
 
         static void arreglos() {
+            System.Console.WriteLine("Arreglo con números pares comprendidos entre 1 y 20.");
             int[] arreglo = new int[10];
             int p=2;
             for (int i=0; i<10; i++) {
